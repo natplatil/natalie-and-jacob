@@ -18,14 +18,14 @@ function HeroSection() {
       <p>We're Getting Married!</p>
       <p>In Lerici, Italy on June 12th 2026</p>
       <div className='hero-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
           path='/sign-up'
         >
           RSVP
-        </Button>
+        </Button> */}
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -33,7 +33,7 @@ function HeroSection() {
           path='/services'
           onClick={() => console.log('hey')}
         >
-          OUR STORY <i className='far fa-play-circle' />
+          RSVP 
         </Button>
       </div>
     </div>
