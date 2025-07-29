@@ -4,6 +4,10 @@ video {
   height: 100%;
   position: fixed;
   z-index: -1;
+  /* Improve video quality */
+  filter: contrast(1.1) brightness(1.05);
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .hero-container {

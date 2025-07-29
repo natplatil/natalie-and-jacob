@@ -1,0 +1,162 @@
+.accommodation-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.accommodation-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.intro-text {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.hotel-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-card h3 {
+  color: #8B4513;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #8B4513;
+  padding-bottom: 0.5rem;
+}
+
+.hotel-details {
+  margin-bottom: 1rem;
+}
+
+.hotel-details p {
+  margin: 0.3rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.hotel-details strong {
+  color: #8B4513;
+}
+
+.hotel-description {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.hotel-description p {
+  margin: 0.5rem 0;
+}
+
+.travel-info {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.travel-info h3 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.travel-option {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.travel-option h4 {
+  color: #8B4513;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.travel-option p {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.contact-info {
+  background: #8B4513;
+  color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .accommodation-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .hotel-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .travel-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .accommodation-section h2 {
+    font-size: 2rem;
+  }
+  
+  .intro-text {
+    font-size: 1rem;
+  }
+}

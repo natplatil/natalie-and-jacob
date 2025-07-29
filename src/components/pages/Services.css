@@ -1,0 +1,100 @@
+.schedule-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.multi-day-schedule {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.schedule-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.schedule-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  border-bottom: 2px solid #8B4513;
+  padding-bottom: 0.5rem;
+}
+
+.schedule-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.schedule-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.time {
+  flex: 0 0 120px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8B4513;
+  padding-top: 0.2rem;
+}
+
+.event {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.event h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.event p {
+  margin: 0.2rem 0;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .multi-day-schedule {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .schedule-section {
+    min-width: auto;
+  }
+  
+  .schedule-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .event {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+  
+  .time {
+    flex: none;
+  }
+}
