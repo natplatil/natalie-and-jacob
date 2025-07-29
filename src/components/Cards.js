@@ -10,13 +10,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/ring.jpg'
+              src={`${process.env.PUBLIC_URL}/images/ring.jpg`}
               text='Wedding Info & Weekend Schedule'
               label='Schedule'
               path='/services'
             />
             <CardItem
-              src='images/fiat.jpg'
+              src={`${process.env.PUBLIC_URL}/images/fiat.jpg`}
               text='Travel & Accommodation'
               label='Accomomodation'
               path='/products'
@@ -24,19 +24,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/lerici_view.jpg'
+              src={`${process.env.PUBLIC_URL}/images/lerici_view.jpg`}
               text='Things To Do in Lerici'
               label='Schedule'
               path='/services'
             />
             <CardItem
-              src='images/villa_dinner.jpg'
+              src={`${process.env.PUBLIC_URL}/images/villa_dinner.jpg`}
               text='Meal choices'
               label='Accomodation'
               path='/products'
             />
             <CardItem
-              src='images/name_plate.jpg'
+              src={`${process.env.PUBLIC_URL}/images/name_plate.jpg`}
               text='RSVP Here'
               label='RSVP'
               path='/sign-up'

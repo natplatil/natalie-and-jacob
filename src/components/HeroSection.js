@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video 
-        src='/videos/proposalvid.mp4' 
+        src={`${process.env.PUBLIC_URL}/videos/proposalvid.mp4`}
         autoPlay 
         loop 
         muted 
