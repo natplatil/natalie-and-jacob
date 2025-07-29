@@ -36,7 +36,7 @@ function Cards() {
               path='/products'
             />
             <CardItem
-              src={`${process.env.PUBLIC_URL}/images/name_plate.jpg`}
+              src={`${process.env.PUBLIC_URL}/images/peeping.jpg`}
               text='RSVP Here'
               label='RSVP'
               path='/sign-up'
