@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/natalie-and-jacob/static/css/main.ad4b6420.css",
-    "main.js": "/natalie-and-jacob/static/js/main.3ffa4324.js",
+    "main.css": "/natalie-and-jacob/static/css/main.4541f4b1.css",
+    "main.js": "/natalie-and-jacob/static/js/main.99c14500.js",
+    "static/media/lerici_view.jpg": "/natalie-and-jacob/static/media/lerici_view.ef4be2c6dfb6132cbe4f.jpg",
     "static/media/peeping.jpg": "/natalie-and-jacob/static/media/peeping.b0483d07d942e6e3db44.jpg",
     "static/media/sitting.jpg": "/natalie-and-jacob/static/media/sitting.eddcb70f8d5d59491f52.jpg",
     "static/media/sebwed.jpg": "/natalie-and-jacob/static/media/sebwed.0612da69aeacce892851.jpg",
     "index.html": "/natalie-and-jacob/index.html",
-    "main.ad4b6420.css.map": "/natalie-and-jacob/static/css/main.ad4b6420.css.map",
-    "main.3ffa4324.js.map": "/natalie-and-jacob/static/js/main.3ffa4324.js.map"
+    "main.4541f4b1.css.map": "/natalie-and-jacob/static/css/main.4541f4b1.css.map",
+    "main.99c14500.js.map": "/natalie-and-jacob/static/js/main.99c14500.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad4b6420.css",
-    "static/js/main.3ffa4324.js"
+    "static/css/main.4541f4b1.css",
+    "static/js/main.99c14500.js"
   ]
 }
