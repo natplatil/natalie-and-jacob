@@ -30,7 +30,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          path='/services'
+          path='/sign-up'
           onClick={() => console.log('hey')}
         >
           RSVP 

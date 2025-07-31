@@ -1,0 +1,120 @@
+/* Main Container */
+.things-to-do-container {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.things-to-do-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Attractions Section */
+.attractions-section {
+  margin-bottom: 60px;
+}
+
+.attractions-section h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  position: relative;
+}
+
+.attractions-section h3::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  border-radius: 2px;
+}
+
+/* Attraction Grid */
+.attraction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.attraction-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.attraction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.attraction-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.attraction-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+.attraction-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+.attraction-card strong {
+  color: #4ecdc4;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .things-to-do-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .things-to-do-section h2 {
+    font-size: 2rem;
+  }
+  
+  .attractions-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .attraction-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .attraction-card {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .things-to-do-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .things-to-do-container {
+    padding: 40px 15px;
+  }
+}

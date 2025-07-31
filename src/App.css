@@ -8,6 +8,7 @@
 .home,
 .services,
 .products,
+.thingstodo,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -41,4 +42,56 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.thingstodo {
+  background-image: url('./images/lerici_view.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* Mobile responsiveness for hero sections */
+@media screen and (max-width: 768px) {
+  .home,
+  .services,
+  .products,
+  .thingstodo,
+  .sign-up {
+    height: 60vh;
+    font-size: 2.5rem;
+  }
+  
+  .services {
+    background-size: contain;
+    background-position: center top;
+  }
+  
+  .products {
+    background-size: contain;
+    background-position: center top;
+  }
+  
+  .thingstodo {
+    background-size: contain;
+    background-position: center top;
+  }
+  
+  .sign-up {
+    background-size: contain;
+    background-position: center top;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home,
+  .services,
+  .products,
+  .thingstodo,
+  .sign-up {
+    height: 50vh;
+    font-size: 2rem;
+  }
 }

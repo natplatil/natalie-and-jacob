@@ -26,14 +26,14 @@ function Cards() {
             <CardItem
               src={`${process.env.PUBLIC_URL}/images/lerici_view.jpg`}
               text='Things To Do in Lerici'
-              label='Schedule'
-              path='/services'
+              label='To Do'
+              path='/thingstodo'
             />
             <CardItem
               src={`${process.env.PUBLIC_URL}/images/villa_dinner.jpg`}
               text='Meal choices'
               label='Accomodation'
-              path='/products'
+              path='/meal-choices'
             />
             <CardItem
               src={`${process.env.PUBLIC_URL}/images/peeping.jpg`}
