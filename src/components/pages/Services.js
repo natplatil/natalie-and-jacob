@@ -16,13 +16,14 @@ export default function Services() {
           
           {/* Thursday Schedule */}
           <div className='schedule-section'>
+            <h1>Pre-Wedding</h1>
             <h2>Thursday, June 11th</h2>
             
             <div className='schedule-item'>
               <div className='time'>7:00 PM</div>
               <div className='event'>
-                <h3>Rehearsal Dinner</h3>
-                <p>Family and wedding party only</p>
+                <h3>Pizza Dinner</h3>
+                <p>[Guest List]</p>
                 <p>[Restaurant Name]</p>
               </div>
             </div>
@@ -30,8 +31,8 @@ export default function Services() {
             <div className='schedule-item'>
               <div className='time'>9:00 PM</div>
               <div className='event'>
-                <h3>Welcome Drinks</h3>
-                <p>Open to all guests</p>
+                <h3>[Drinks?]</h3>
+                <p>[Guest List]</p>
                 <p>[Hotel Bar/Venue]</p>
               </div>
             </div>
@@ -39,12 +40,13 @@ export default function Services() {
 
           {/* Friday Schedule */}
           <div className='schedule-section'>
+            <h1>Wedding Day</h1>
             <h2>Friday, June 12th</h2>
             
             <div className='schedule-item'>
               <div className='time'>5:00 PM</div>
               <div className='event'>
-                <h3>Welcome Drinks at Villa</h3>
+                <h3>Welcome Drinks at Wedding Venue</h3>
                 <p>Join us for drinks and appetizers</p>
                 <p>Villa Marigola</p>
               </div>
@@ -80,29 +82,30 @@ export default function Services() {
               <div className='time'>1:00 AM</div>
               <div className='event'>
                 <h3>Last Dance</h3>
-                <p>End of reception</p>
+                <p>Venue Closes at 1:30 AM</p>
               </div>
             </div>
           </div>
 
           {/* Saturday Schedule */}
           <div className='schedule-section'>
+            <h1>Post-Wedding</h1>
             <h2>Saturday, June 13th</h2>
             
             <div className='schedule-item'>
               <div className='time'>11:00 AM</div>
               <div className='event'>
-                <h3>Farewell Brunch</h3>
-                <p>Casual goodbye gathering</p>
-                <p>[Brunch Venue]</p>
+                <h3>[Some activity]</h3>
+                <p>[Something]</p>
+                <p>[Location]</p>
               </div>
             </div>
 
             <div className='schedule-item'>
               <div className='time'>2:00 PM</div>
               <div className='event'>
-                <h3>Hotel Checkout</h3>
-                <p>Safe travels home!</p>
+                <h3>[Another acitivity]</h3>
+                <p>[Location]</p>
               </div>
             </div>
           </div>

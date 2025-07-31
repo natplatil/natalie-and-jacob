@@ -138,6 +138,18 @@
   font-size: 1rem;
 }
 
+.map-container {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.accommodation-map.small {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (max-width: 768px) {
   .accommodation-container {
     margin: 1rem;

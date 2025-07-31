@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/natalie-and-jacob">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
