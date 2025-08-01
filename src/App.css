@@ -9,12 +9,14 @@
 .services,
 .products,
 .thingstodo,
-.sign-up {
+.sign-up,
+.meal-choices {
   display: flex;
   height: 90vh;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   font-size: 3rem;
+  padding-bottom: 15vh;
 }
 
 .services {
@@ -22,7 +24,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: hsla(0, 0%, 100%, 0.8);
+  color: #ffff;
   font-size: 100px;
 }
 
@@ -53,35 +55,52 @@
   font-size: 100px;
 }
 
+.meal-choices{
+ background-image: url('./images/villa_dinner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
 /* Mobile responsiveness for hero sections */
 @media screen and (max-width: 768px) {
   .home,
   .services,
   .products,
   .thingstodo,
-  .sign-up {
-    height: 60vh;
+  .sign-up,
+  .meal-choices {
+    height: 100vh;
     font-size: 2.5rem;
+    align-items: flex-end;
+    padding-bottom: 20vh;
   }
   
   .services {
-    background-size: contain;
-    background-position: center top;
+    background-size: cover;
+    background-position: center center;
   }
   
   .products {
-    background-size: contain;
-    background-position: center top;
+    background-size: cover;
+    background-position: center center;
   }
   
   .thingstodo {
-    background-size: contain;
-    background-position: center top;
+    background-size: cover;
+    background-position: center center;
   }
   
   .sign-up {
-    background-size: contain;
-    background-position: center top;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .meal-choices {
+    background-size: cover;
+    background-position: center center;
   }
 }
 
@@ -90,7 +109,8 @@
   .services,
   .products,
   .thingstodo,
-  .sign-up {
+  .sign-up,
+  .meal-choices {
     height: 50vh;
     font-size: 2rem;
   }

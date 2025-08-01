@@ -15,29 +15,27 @@ export default function MealChoices() {
         <div className='meal-choices-section'>
           <h2>Wedding Menu</h2>
           <p className='intro-text'>
-            Please select your meal preferences for our wedding celebration. 
             We'll be serving a delicious Italian feast prepared by local chefs.
+            Which will consist of two appetizers, a main course with vegetable-based sides and dessert will be the wedding cake.
           </p>
           
           <div className='menu-section'>
-            <h3>Appetizers</h3>
+            <h3>Two Appetizers</h3>
             <div className='menu-grid'>
               
               <div className='menu-card'>
-                <div className='menu-icon'>🧀</div>
-                <h4>Antipasto Italiano</h4>
+                <div className='menu-icon'>🍝</div>
+                <h4>Pasta Dish</h4>
                 <p>
-                  A selection of local cheeses, cured meats, olives, and marinated vegetables 
-                  from the Liguria region.
+                 [TBD]
                 </p>
               </div>
 
               <div className='menu-card'>
-                <div className='menu-icon'>🦐</div>
-                <h4>Seafood Crudo</h4>
+                <div className='menu-icon'>🍚</div>
+                <h4>Risotto dish</h4>
                 <p>
-                  Fresh local seafood prepared with lemon, olive oil, and herbs, 
-                  showcasing the flavors of the Mediterranean.
+                  [TBD]
                 </p>
               </div>
 
@@ -45,33 +43,23 @@ export default function MealChoices() {
           </div>
 
           <div className='menu-section'>
-            <h3>Main Courses</h3>
+            <h3>One Main Course</h3>
             <div className='menu-grid'>
               
+    
               <div className='menu-card'>
-                <div className='menu-icon'>🐟</div>
-                <h4>Branzino al Sale</h4>
+                <div className='menu-icon'>🥩or🐟</div>
+                <h4>[TBD]</h4>
                 <p>
-                  Fresh Mediterranean sea bass baked in sea salt, served with seasonal vegetables 
-                  and Ligurian olive oil.
-                </p>
-              </div>
-
-              <div className='menu-card'>
-                <div className='menu-icon'>🥩</div>
-                <h4>Osso Buco</h4>
-                <p>
-                  Traditional Italian braised veal shanks with vegetables, white wine, 
-                  and broth, served with risotto alla milanese.
+                  [TBD]
                 </p>
               </div>
 
               <div className='menu-card'>
                 <div className='menu-icon'>🌱</div>
-                <h4>Vegetarian Pesto Pasta</h4>
+                <h4>Vegetable-Based Side Dish</h4>
                 <p>
-                  Fresh pasta with traditional Genovese basil pesto, pine nuts, 
-                  and local vegetables from the region.
+                  [TBD]
                 </p>
               </div>
 
@@ -86,19 +74,11 @@ export default function MealChoices() {
                 <div className='menu-icon'>🍰</div>
                 <h4>Wedding Cake</h4>
                 <p>
-                  Traditional Italian wedding cake with layers of sponge, 
-                  fresh cream, and seasonal Italian fruits.
+                  [insert type]
                 </p>
               </div>
 
-              <div className='menu-card'>
-                <div className='menu-icon'>🍨</div>
-                <h4>Gelato Selection</h4>
-                <p>
-                  Artisanal gelato featuring classic Italian flavors: 
-                  pistachio, stracciatella, and limoncello.
-                </p>
-              </div>
+
 
             </div>
           </div>
@@ -108,6 +88,7 @@ export default function MealChoices() {
             <p>
               Please let us know about any allergies or dietary restrictions when you RSVP. 
               We can accommodate vegetarian, vegan, and gluten-free options.
+              Also let us know if you need a kids menu in the RSVP.
             </p>
           </div>
 

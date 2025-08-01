@@ -16,6 +16,7 @@ export default function Services() {
           
           {/* Thursday Schedule */}
           <div className='schedule-section'>
+            <img src={`${process.env.PUBLIC_URL}/images/stelvio1.jpg`} alt='Pre-Wedding' className='schedule-image' />
             <h1>Pre-Wedding</h1>
             <h2>Thursday, June 11th</h2>
             
@@ -40,6 +41,7 @@ export default function Services() {
 
           {/* Friday Schedule */}
           <div className='schedule-section'>
+            <img src={`${process.env.PUBLIC_URL}/images/stelvio2.jpg`} alt='Wedding Day' className='schedule-image' />
             <h1>Wedding Day</h1>
             <h2>Friday, June 12th</h2>
             
@@ -89,6 +91,7 @@ export default function Services() {
 
           {/* Saturday Schedule */}
           <div className='schedule-section'>
+            <img src={`${process.env.PUBLIC_URL}/images/stelvio3.JPG`} alt='Post-Wedding' className='schedule-image' />
             <h1>Post-Wedding</h1>
             <h2>Saturday, June 13th</h2>
             
