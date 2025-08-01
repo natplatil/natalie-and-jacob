@@ -20,9 +20,9 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    window.addEventListener('resize', showButton);
+    return () => window.removeEventListener('resize', showButton);
   }, []);
-
-  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -31,9 +31,14 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             N&J
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+
+          {/* Hamburger icon only when button is false */}
+          {!button && (
+            <div className='menu-icon' onClick={handleClick}>
+              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            </div>
+          )}
+
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -41,34 +46,33 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                 Schedule
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
                 Accommodation
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/meal-choices' className='nav-links' onClick={closeMobileMenu}>
+                Menu
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/thingstodo' className='nav-links' onClick={closeMobileMenu}>
+                Things To Do
               </Link>
             </li>
 
             <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                 RSVP
               </Link>
             </li>
           </ul>
+          
           {button && <Button buttonStyle='btn--outline'>RSVP</Button>}
         </div>
       </nav>
