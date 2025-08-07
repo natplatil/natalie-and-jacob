@@ -75,6 +75,9 @@
   font-size: 3rem;
   margin-bottom: 20px;
   display: block;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Android Emoji", "EmojiSymbols", "EmojiOne Mozilla", "Twemoji Mozilla", "Segoe UI Symbol", sans-serif;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
 }
 
 .menu-card h4 {
@@ -131,6 +134,10 @@
   
   .menu-card {
     padding: 20px;
+  }
+  
+  .menu-icon {
+    display: none; /* Hide emojis on mobile */
   }
 
   .dietary-info {
