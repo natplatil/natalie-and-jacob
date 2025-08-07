@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/natalie-and-jacob/static/css/main.9f82dbb7.css",
+    "main.css": "/natalie-and-jacob/static/css/main.b21e25c8.css",
     "main.js": "/natalie-and-jacob/static/js/main.5ae63676.js",
     "static/media/lerici_view.jpg": "/natalie-and-jacob/static/media/lerici_view.ef4be2c6dfb6132cbe4f.jpg",
     "static/media/peeping.jpg": "/natalie-and-jacob/static/media/peeping.b0483d07d942e6e3db44.jpg",
@@ -8,11 +8,11 @@
     "static/media/sitting.jpg": "/natalie-and-jacob/static/media/sitting.eddcb70f8d5d59491f52.jpg",
     "static/media/sebwed.jpg": "/natalie-and-jacob/static/media/sebwed.0612da69aeacce892851.jpg",
     "index.html": "/natalie-and-jacob/index.html",
-    "main.9f82dbb7.css.map": "/natalie-and-jacob/static/css/main.9f82dbb7.css.map",
+    "main.b21e25c8.css.map": "/natalie-and-jacob/static/css/main.b21e25c8.css.map",
     "main.5ae63676.js.map": "/natalie-and-jacob/static/js/main.5ae63676.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f82dbb7.css",
+    "static/css/main.b21e25c8.css",
     "static/js/main.5ae63676.js"
   ]
 }
