@@ -136,7 +136,7 @@
     padding: 20px;
   }
   
-  .menu-icon {
+  .menu-card .menu-icon {
     display: none; /* Hide emojis on mobile */
   }
 

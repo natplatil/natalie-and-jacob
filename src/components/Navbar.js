@@ -5,7 +5,13 @@ import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // Set initial button state based on window width to prevent flash
+  const [button, setButton] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth > 960;
+    }
+    return true; // Default for server-side rendering
+  });
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);

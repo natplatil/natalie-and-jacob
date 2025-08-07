@@ -141,13 +141,16 @@
 .map-container {
   margin: 30px 0;
   text-align: center;
+  overflow: hidden;
 }
 
 .accommodation-map.small {
   max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
@@ -170,5 +173,19 @@
   
   .intro-text {
     font-size: 1rem;
+  }
+  
+  .map-container {
+    margin: 20px -1rem;
+    padding: 0 1rem;
+  }
+  
+  .accommodation-map.small {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
   }
 }
