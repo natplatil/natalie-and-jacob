@@ -14,7 +14,8 @@ export default function SignUp() {
     dietaryRestrictions: '',
     kidsMenu: '',
     songRequest: '',
-    additionalNotes: ''
+    additionalNotes: '',
+    pizzaParty: ''
   });
 
   const handleInputChange = (e) => {
@@ -45,6 +46,7 @@ export default function SignUp() {
     formDataToSubmit.append('entry.360423130', formData.kidsMenu);         // Kids menu field
     formDataToSubmit.append('entry.1724081640', formData.songRequest);      // Song Request field
     formDataToSubmit.append('entry.2145572933', formData.additionalNotes);  // Additional Notes field
+    formDataToSubmit.append('entry.XXXXXXX', formData.pizzaParty);         // Pizza party field - REPLACE WITH ACTUAL ENTRY ID
 
     fetch(googleFormURL, {
       method: 'POST',
@@ -64,7 +66,8 @@ export default function SignUp() {
         dietaryRestrictions: '',
         kidsMenu: '',
         songRequest: '',
-        additionalNotes: ''
+        additionalNotes: '',
+        pizzaParty: ''
       });
     }).catch(() => {
       alert('There was an error. Please try again.');
@@ -145,7 +148,7 @@ export default function SignUp() {
             <div className='form-section'>
               <h3>Attendance</h3>
               <div className='form-group'>
-                <label>Will you be attending our wedding? *</label>
+                <label>Will you be attending our wedding? (Friday June 12th)*</label>
                 <div className='radio-group'>
                   <label className='radio-label'>
                     <input
@@ -158,6 +161,7 @@ export default function SignUp() {
                     />
                     Yes, I'll be there!
                   </label>
+                  
                   <label className='radio-label'>
                     <input
                       type='radio'
@@ -175,7 +179,7 @@ export default function SignUp() {
               {formData.attendance === 'Yes' && (
                 <>
                   <div className='form-group'>
-                    <label>Will you be bringing a plus one?</label>
+                    <label>Will you be bringing a plus one to the wedding?</label>
                     <div className='radio-group'>
                       <label className='radio-label'>
                         <input
@@ -184,6 +188,7 @@ export default function SignUp() {
                           value='Yes'
                           checked={formData.plusOne === 'Yes'}
                           onChange={handleInputChange}
+                          required
                         />
                         Yes
                       </label>
@@ -194,6 +199,7 @@ export default function SignUp() {
                           value='No'
                           checked={formData.plusOne === 'No'}
                           onChange={handleInputChange}
+                          requred
                         />
                         No
                       </label>
@@ -213,6 +219,34 @@ export default function SignUp() {
                       />
                     </div>
                   )}
+
+                  <div className='form-group'>
+                    <label>Would you like to join us for a pizza party the day before our wedding? (Thursday June 11th)*</label>
+                    <div className='radio-group'>
+                      <label className='radio-label'>
+                        <input
+                          type='radio'
+                          name='pizzaParty'
+                          value='Yes'
+                          checked={formData.pizzaParty === 'Yes'}
+                          onChange={handleInputChange}
+                          required
+                        />
+                        Yes!
+                      </label>
+                      <label className='radio-label'>
+                        <input
+                          type='radio'
+                          name='pizzaParty'
+                          value='No'
+                          checked={formData.pizzaParty === 'No'}
+                          onChange={handleInputChange}
+                          required
+                        />
+                        No, thanks
+                      </label>
+                    </div>
+                  </div>
                 </>
               )}
             </div>
@@ -288,9 +322,12 @@ export default function SignUp() {
                     rows='4'
                   ></textarea>
                 </div>
-              </div>
-            )}
+                <p className='speech-note'>If you'd like to hold a speech, reach out to our toast masters - Anna and Martin! </p>
+                <p className='speech-note'> Anna.vernersson@outlook.com </p>
 
+              </div>
+              
+            )}
             <div className='form-submit'>
               <button type='submit' className='rsvp-submit-btn'>
                 Submit RSVP

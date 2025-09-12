@@ -31,8 +31,8 @@ function Cards() {
             />
             <CardItem
               src={`${process.env.PUBLIC_URL}/images/villa_dinner.jpg`}
-              text='Meal choices'
-              label='Accomodation'
+              text='Dinner'
+              label='Meal'
               path='/meal-choices'
             />
             <CardItem
