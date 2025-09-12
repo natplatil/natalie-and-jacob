@@ -81,6 +81,49 @@
   line-height: 1.4;
 }
 
+/* Dress Code Section */
+.dress-code-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #8B4513;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dress-code-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #8B4513, #D2B48C, #8B4513);
+}
+
+.dress-code-section h3 {
+  margin: 0 0 0.8rem 0;
+  color: #8B4513;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.dress-code-section p:first-of-type {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.dress-code-section p:last-of-type {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
 @media screen and (max-width: 768px) {
   .schedule-container {
     margin: 1rem;

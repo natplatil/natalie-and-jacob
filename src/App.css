@@ -15,8 +15,8 @@
   height: 90vh;
   align-items: flex-end;
   justify-content: center;
-  font-size: 3rem;
-  padding-bottom: 15vh;
+  font-size: 2rem;
+  padding-bottom: 5vh;
 }
 
 .services {
@@ -25,7 +25,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffff;
-  font-size: 100px;
+  font-size: 2.5rem;
 }
 
 .products {
@@ -34,7 +34,7 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 2.5rem;
 }
 
 .sign-up {
@@ -43,7 +43,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 2.5rem;
 }
 
 .thingstodo {
@@ -52,7 +52,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 2.5rem;
 }
 
 .meal-choices{
@@ -61,7 +61,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 2.5rem;
 }
 
 /* Mobile responsiveness for hero sections */
@@ -73,9 +73,9 @@
   .sign-up,
   .meal-choices {
     height: 100vh;
-    font-size: 2.5rem;
+    font-size: 2rem;
     align-items: flex-end;
-    padding-bottom: 20vh;
+    padding-bottom: 8vh;
   }
   
   .services {
@@ -112,6 +112,6 @@
   .sign-up,
   .meal-choices {
     height: 50vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }

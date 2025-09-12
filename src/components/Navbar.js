@@ -53,7 +53,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                Schedule
+                Schedule & Info
               </Link>
             </li>
             <li className='nav-item'>

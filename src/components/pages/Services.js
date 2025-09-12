@@ -20,23 +20,23 @@ export default function Services() {
             <h1>Pre-Wedding</h1>
             <h2>Thursday, June 11th</h2>
             
+            <div className='dress-code-section'>
+              <h3>👗 Dress Code</h3>
+              <p><strong>Semi-Formal or Dressy Casual</strong></p>
+              <p>Think cocktail attire - dress nicely but comfortable for dinner and drinks!</p>
+            </div>
+            
             <div className='schedule-item'>
-              <div className='time'>7:00 PM</div>
+              <div className='time'>6:00 PM</div>
               <div className='event'>
-                <h3>Pizza Dinner</h3>
-                <p>[Guest List]</p>
-                <p>[Restaurant Name]</p>
+                <h3>Pizza Party!</h3>
+                <p>la marinella | Seaside Bistrot & Cocktail Bar</p>
+                <p>Everyone is welcome!</p>
+
               </div>
             </div>
 
-            <div className='schedule-item'>
-              <div className='time'>9:00 PM</div>
-              <div className='event'>
-                <h3>[Drinks?]</h3>
-                <p>[Guest List]</p>
-                <p>[Hotel Bar/Venue]</p>
-              </div>
-            </div>
+     
           </div>
 
           {/* Friday Schedule */}
@@ -45,29 +45,43 @@ export default function Services() {
             <h1>Wedding Day</h1>
             <h2>Friday, June 12th</h2>
             
+            <div className='dress-code-section'>
+              <h3>👔 Dress Code</h3>
+              <p><strong>Formal or Black-Tie Optional</strong></p>
+              <p>Formal evening wear - tuxedos, suits, cocktail dresses, or evening gowns. Let's dress to celebrate!</p>
+            </div>
+            
             <div className='schedule-item'>
               <div className='time'>5:00 PM</div>
               <div className='event'>
-                <h3>Welcome Drinks at Wedding Venue</h3>
-                <p>Join us for drinks and appetizers</p>
+                <h3>Arrive at villa</h3>
+                <p>Sit for ceremony</p>
                 <p>Villa Marigola</p>
               </div>
             </div>
 
-            <div className='schedule-item'>
-              <div className='time'>6:00 PM</div>
+             <div className='schedule-item'>
+              <div className='time'>5:30 PM</div>
               <div className='event'>
-                <h3>Ceremony</h3>
-                <p>Villa Marigola</p>
-                <p>[Address]</p>
+                <h3>Ceremony begins!</h3>
+                <p>Throw rose petals</p>
               </div>
             </div>
 
             <div className='schedule-item'>
-              <div className='time'>7:30 PM</div>
+              <div className='time'>6:15 PM</div>
               <div className='event'>
-                <h3>Dinner</h3>
-                <p>Villa Marigola</p>
+                <h3>Champagne Toast in Garden</h3>
+                <p>Get ready for the bouquet toss</p>
+              </div>
+            </div>
+
+            <div className='schedule-item'>
+              <div className='time'>7:15 PM</div>
+              <div className='event'>
+                <h3>Dinner begins</h3>
+                <p> Plus toasts and speeches!</p>
+
               </div>
             </div>
 
@@ -75,15 +89,21 @@ export default function Services() {
               <div className='time'>10:00 PM</div>
               <div className='event'>
                 <h3>Cake Cutting</h3>
-                <p>Villa Marigola</p>
-                <p>Dinner, dancing, and celebration!</p>
+                <p>Yum</p>
+              </div>
+            </div>
+              <div className='schedule-item'>
+              <div className='time'>10:15 PM</div>
+              <div className='event'>
+                <h3>First Dance</h3>
+                <p>and all the other dances</p>
               </div>
             </div>
 
             <div className='schedule-item'>
               <div className='time'>1:00 AM</div>
               <div className='event'>
-                <h3>Last Dance</h3>
+                <h3>Closing tiiiiime (almost), one last call for alcohoool</h3>
                 <p>Venue Closes at 1:30 AM</p>
               </div>
             </div>
@@ -95,10 +115,16 @@ export default function Services() {
             <h1>Post-Wedding</h1>
             <h2>Saturday, June 13th</h2>
             
+            <div className='dress-code-section'>
+              <h3>🏊‍♀️ Dress Code</h3>
+              <p><strong>Swimsuit</strong></p>
+              <p>Casual beach/pool vibes - bring your swimwear and relax!</p>
+            </div>
+            
             <div className='schedule-item'>
               <div className='time'>11:00 AM</div>
               <div className='event'>
-                <h3>[Some activity]</h3>
+                <h3>Swims</h3>
                 <p>[Something]</p>
                 <p>[Location]</p>
               </div>
