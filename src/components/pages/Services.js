@@ -111,7 +111,7 @@ export default function Services() {
 
           {/* Saturday Schedule */}
           <div className='schedule-section'>
-            <img src={`${process.env.PUBLIC_URL}/images/stelvio3.JPG`} alt='Post-Wedding' className='schedule-image' />
+            <img src={`${process.env.PUBLIC_URL}/images/stelvio3.jpg`} alt='Post-Wedding' className='schedule-image' />
             <h1>Post-Wedding</h1>
             <h2>Saturday, June 13th</h2>
             

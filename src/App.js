@@ -8,6 +8,7 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import ThingsToDo from './components/pages/ThingsToDo';
 import MealChoices from './components/pages/MealChoices';
+import AddressCollection from './components/pages/AddressCollection';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/thingstodo' element={<ThingsToDo />} />
           <Route path='/sign-up' element={<SignUp />} />
           <Route path='/meal-choices' element={<MealChoices />} />
+          <Route path='/address-collection' element={<AddressCollection />} />
         </Routes>
       </Router>
     </>

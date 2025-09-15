@@ -36,11 +36,11 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 8px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 75vw;
   justify-content: end;
   margin-right: 2rem;
 }

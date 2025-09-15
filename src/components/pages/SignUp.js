@@ -46,7 +46,7 @@ export default function SignUp() {
     formDataToSubmit.append('entry.360423130', formData.kidsMenu);         // Kids menu field
     formDataToSubmit.append('entry.1724081640', formData.songRequest);      // Song Request field
     formDataToSubmit.append('entry.2145572933', formData.additionalNotes);  // Additional Notes field
-    formDataToSubmit.append('entry.XXXXXXX', formData.pizzaParty);         // Pizza party field - REPLACE WITH ACTUAL ENTRY ID
+    formDataToSubmit.append('entry.1954392475', formData.pizzaParty);         // Pizza party field - REPLACE WITH ACTUAL ENTRY ID
 
     fetch(googleFormURL, {
       method: 'POST',

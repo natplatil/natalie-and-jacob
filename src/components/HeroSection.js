@@ -35,6 +35,14 @@ function HeroSection() {
         >
           RSVP 
         </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+          path='/address-collection'
+        >
+          Mail Invitations
+        </Button>
       </div>
     </div>
   );

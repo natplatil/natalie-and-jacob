@@ -71,6 +71,11 @@ function Navbar() {
                 Things To Do
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/address-collection' className='nav-links' onClick={closeMobileMenu}>
+                Mail Invitations
+              </Link>
+            </li>
 
             <li>
               <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
