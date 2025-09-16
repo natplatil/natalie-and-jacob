@@ -7,7 +7,7 @@ export default function MealChoices() {
     <div>
       {/* Hero section with background image */}
       <div className='meal-choices'>
-        <h1>Meal Choices</h1>
+        <h1>Meal</h1>
       </div>
       
       {/* Content section */}

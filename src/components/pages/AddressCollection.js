@@ -89,6 +89,28 @@ export default function AddressCollection() {
         <div className='address-header'>
           <h1>Provide Mailing Address Here to Receive Paper Invite!</h1>
           <p className='note'>💝 We're sending out physical invitations! Please provide your mailing address so we can send yours to you.</p>
+          
+          {/* Save the Date Card Preview */}
+          <div className='save-the-date-preview'>
+            <h3>Preview: Your Digital Save-the-Date</h3>
+            <div className='canva-embed-container'>
+              <iframe 
+                loading="lazy" 
+                className='canva-iframe'
+                src="https://www.canva.com/design/DAGzETtTS6w/N7vWYz7KvaywVhr5XUvu_A/view?embed" 
+                allowFullScreen={true}
+                allow="fullscreen"
+                title="Save the Date Card Preview">
+              </iframe>
+            </div>
+            <div className='canva-credit'>
+              <a href="https://www.canva.com/design/DAGzETtTS6w/N7vWYz7KvaywVhr5XUvu_A/view?utm_content=DAGzETtTS6w&utm_campaign=designshare&utm_medium=embeds&utm_source=link" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                Save The Date
+              </a> by Natalie Platil
+            </div>
+          </div>
         </div>
 
         <form onSubmit={handleSubmit} className='address-form'>

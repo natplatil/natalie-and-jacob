@@ -129,13 +129,13 @@
 }
 
 .rsvp-submit-btn {
-  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  background: linear-gradient(135deg, #138b8b 0%, #9c6348 100%);
   color: white;
   border: none;
   padding: 1rem 3rem;
   font-size: 1.2rem;
   font-weight: 600;
-  border-radius: 50px;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);

@@ -17,6 +17,7 @@ function HeroSection() {
       <h1>Natalie & Jacob</h1>
       <p>We're Getting Married!</p>
       <p>In Lerici, Italy on June 12th 2026</p>
+      {/* <p>Join us for a 3-day celebration!</p> */}
       <div className='hero-btns'>
         {/* <Button
           className='btns'

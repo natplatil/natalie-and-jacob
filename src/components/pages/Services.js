@@ -29,7 +29,7 @@ export default function Services() {
             <div className='schedule-item'>
               <div className='time'>6:00 PM</div>
               <div className='event'>
-                <h3>Pizza Party!</h3>
+                <h3>Pizza Party & Mingle!</h3>
                 <p>la marinella | Seaside Bistrot & Cocktail Bar</p>
                 <p>Everyone is welcome!</p>
 
