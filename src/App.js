@@ -9,14 +9,12 @@ import SignUp from './components/pages/SignUp';
 import ThingsToDo from './components/pages/ThingsToDo';
 import MealChoices from './components/pages/MealChoices';
 import AddressCollection from './components/pages/AddressCollection';
-import FirstVisitPopup from './components/FirstVisitPopup';
 
 function App() {
   return (
     <>
       <Router basename="/natalie-and-jacob">
         <Navbar />
-        <FirstVisitPopup />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/services' element={<Services />} />
