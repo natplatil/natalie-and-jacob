@@ -84,7 +84,7 @@ export default function SignUp() {
       {/* RSVP Form section */}
       <div className='rsvp-container'>
         <div className='rsvp-section'>
-          <h2>Please Respond by [insert date], 2026</h2>
+          <h2>Please Respond by February 7th, 2026</h2>
           <p className='rsvp-intro'>
             We're so excited to celebrate with you! Please let us know if you'll be joining us
             for our special day in beautiful Lerici, Italy.
