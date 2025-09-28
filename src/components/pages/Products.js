@@ -22,14 +22,14 @@ export default function Products() {
             <div className='hotel-card'>
               <h3>Lerici Hotel San Terenzo</h3>
               <div className='hotel-details'>
-                <p><strong>[insert]</strong></p>
+                {/* <p><strong>[insert]</strong></p> */}
                 <p>Via S. Biaggini, 42, 19032 San Terenzo SP, Italy</p>
                 <p>📞+39 0187 967332 </p>
                 <p>💰€195-295 per night</p>
               </div>
               <div className='hotel-description'>
-                <p>[Description]</p>
-                <p>[Distance]</p>
+                {/* <p>[Description]</p> */}
+                <p>Distance: 650m to Villa Marigola</p>
                   
               </div>
             </div>
@@ -37,13 +37,13 @@ export default function Products() {
             <div className='hotel-card'>
               <h3>Hotel Florida</h3>
               <div className='hotel-details'>
-                <p><strong>[insert]</strong></p>
+                {/* <p><strong>[insert]</strong></p> */}
                 <p>Via S. Biaggini, 35, 19032 Lerici SP, Italy</p>
                 <p>📞+39 0187 967332 </p>
                 <p>💰€190-230 per night</p>
               </div>
               <div className='hotel-description'>
-                <p>[Description]</p>
+                {/* <p>[Description]</p> */}
                 <p>Distance: 600m to Villa Marigola</p>
                   
               </div>
@@ -52,30 +52,30 @@ export default function Products() {
             <div className='hotel-card'>
               <h3>Hotel Byron</h3>
               <div className='hotel-details'>
-                <p><strong>Luxury Option</strong></p>
+                {/* <p><strong>Luxury Option</strong></p> */}
                 <p>Via S. Biaggini, 19, 19032 Lerici SP, Italy</p>
                 <p>https://hotelbyronlerici.com/it/</p>
                 <p>📞 +39 0187 761530</p>
                 <p>💰 €150-280 per night</p>
               </div>
               <div className='hotel-description'>
-                <p>[info]</p>
+                {/* <p>[info]</p> */}
                 <p><strong>Distance:</strong> 950m to Villa Marigola</p>
-                <p><strong>Amenities:</strong> Pool, spa, restaurant</p>
+                {/* <p><strong>Amenities:</strong> Pool, spa, restaurant</p> */}
               </div>
             </div>
 
             <div className='hotel-card'>
               <h3>Hotel Shelley e delle Palme</h3>
               <div className='hotel-details'>
-                <p><strong>[type]</strong></p>
+                {/* <p><strong>[type]</strong></p> */}
                 <p>Via S. Biaggini, 5, 19032 Lerici SP, Italy</p>
                 <p>http://www.hotelshelley.it/</p>
                 <p>📞 +39 0187 968204</p>
                 <p>💰 €120-200 per night</p>
               </div>
               <div className='hotel-description'>
-                <p>[info]</p>
+                {/* <p>[info]</p> */}
                 <p><strong>Distance:</strong> 1.3km to Villa Marigola</p>
               </div>
             </div>
